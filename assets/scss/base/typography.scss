@@ -1,0 +1,124 @@
+/**
+ * Basic typography style for copy text
+ */
+html {
+  font-size: 100%;
+}
+
+body {
+  @apply text-green text-base antialiased font-sans;
+}
+
+/**
+ * Basic typography style for headers
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+h1 {
+  @apply text-3xl
+  @screen md {
+    @apply text-6xl;
+  }
+}
+h2 {
+  @apply text-3xl;
+  @screen md {
+    @apply text-5xl;
+  }
+}
+h3 {
+  @apply text-xl;
+  @screen md {
+    @apply text-4xl;
+  }
+}
+h4 {
+  @apply text-lg;
+  @screen md {
+    @apply text-3xl;
+  }
+}
+h5 {
+  @apply text-xs;
+  @screen md {
+    @apply text-base;
+  }
+}
+h6 {
+  @apply text-xs;
+}
+
+p,
+.p {
+  @apply text-sm;
+  @screen md {
+    @apply text-base;
+  }
+}
+
+.link {
+  cursor: pointer;
+}
+
+.wysiwyg {
+  > div {
+    :first-child {
+      margin-top: 0;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 1.4em;
+    margin-top: 0.5em;
+  }
+
+  h1 {
+    @apply text-3xl;
+  }
+
+  h2 {
+    @apply text-2xl;
+  }
+
+  h3 {
+    @apply text-xl;
+  }
+
+  h4 {
+    @apply text-lg;
+    margin-bottom: .625em;
+    
+    @screen md {
+      @apply text-3xl;
+    }
+  }
+
+  p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    + h4 {
+      margin-top: 1.5em;
+    }
+  }
+
+  a {
+    @apply font-bold inline-block border-b border-transparent transition duration-1000;
+
+    &:hover {
+      @apply border-green;
+    }
+  }
+}

@@ -1,0 +1,94 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  // add a quick fade in on body to fix flash of prerendered content
+  overflow-x: hidden;
+  background-color: $light-green;
+  touch-action: manipulation;
+
+  // Set font variant to use correct glyphs
+  font-variant-ligatures: no-contextual;
+  -moz-font-feature-settings: "calt" 0;
+  -webkit-font-feature-settings: "calt" 0;
+  font-feature-settings: "calt" 0;
+
+  &.noscroll {
+    overflow: hidden;
+  }
+}
+
+/**
+ * Basic styles for links
+ */
+a {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+/**
+ * Basic styles for buttons
+ */
+button, .button {
+  @apply font-sans font-bold border-2 text-xs uppercase text-center px-6 py-4;
+  padding-top: calc(1rem + 0.1em);
+
+  &:focus {
+    @apply outline-none;
+  }
+}
+
+/**
+ * Basic styles for blockquotes
+ */
+blockquote {}
+
+blockquote:before {}
+
+blockquote p {}
+
+/**
+ * Basic styles for horizontal rules
+ */
+hr {}
+
+/**
+ * Basic styles for iframes
+ */
+iframe {}
+
+/**
+ * Basic styles for code blocks
+ */
+code,
+pre {}
+
+pre code {}
+
+pre {}
+
+* {
+  -webkit-overflow-scrolling: touch;
+}
+
+.flex-break {
+  content: '';
+  height: 0;
+  flex-basis: 100%;
+}

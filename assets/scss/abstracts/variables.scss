@@ -1,0 +1,53 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+// Basic Colours
+$white: #ffffff;
+$black: #000;
+$light-green: #afc2b3;
+$dark-green: #2c4e1e;
+$light-blue: #bbe4e9;
+$blue: #235180;
+
+$nav-container-width: 240px;
+
+// Defaults
+$text-color: $white;
+$alt-text-color: $black;
+
+$margin-width: 2.77777777778vw;
+$mobile-margin-width: 24px;
+$row-margin-width: 40px;
+$container-width: 1200px;
+
+$block-padding: rem(137px);
+$mobile-block-padding: rem(60px);
+
+$column-grid-gap: 32px;
+
+/// Regular font family
+$text-font-stack: houschka-pro, sans-serif;
+
+// Breakpoints
+$small: 569px;
+$medium: 769px;
+$large: 960px;
+$xlarge: 1320px;
+$xxlarge: 1441px;
+$super: 2000px;
+$xsuper: 2500px;
+
+$mobile-breakpoint: $large;
+
+/// CSS Easing Functions
+/// @type String
+$ease-in-out-circ: cubic-bezier(0.72, 0.01, 0.13, 1);
+$ease-in-out-quad: cubic-bezier(0.54, 0.01, 0.5, 1);
+$ease-in-out-sexy: cubic-bezier(0.4, 0, 0.2, 1);
+$ease-long-tail: cubic-bezier(0.03, 0.79, 0.29, 1);
+$ease-swing: cubic-bezier(0.03, 0.79, 0.29, 1);
+$bounce-in: cubic-bezier(0.83, -0.29, 0.17, 1.77);
+$ease-in-out-flash: cubic-bezier(0.3, 1.08, 0.67, 0.78);
+$ease-in-elastic: cubic-bezier(0.64, 0.57, 0.67, 1.53);
+$ease-out-nice: cubic-bezier(0.280, 0.840, 0.420, 1);

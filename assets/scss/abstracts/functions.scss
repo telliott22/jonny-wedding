@@ -1,0 +1,16 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass functions.
+// -----------------------------------------------------------------------------
+
+/// Returns REM font size from pixel size
+/// @param {String} $size - font size in pixels
+/// @return {remSize}
+/// @require $size
+@function rem($size) {
+    $remSize: $size / 16px;
+    @return #{$remSize}rem;
+}
+
+@function grid-span($span, $total: 12) {
+    @return (($span / $total) * 100%)
+}

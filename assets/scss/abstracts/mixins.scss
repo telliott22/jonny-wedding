@@ -1,0 +1,38 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass mixins.
+// -----------------------------------------------------------------------------
+
+/// Convert px size to rem
+/// @author Rhys Williams
+/// @param {String} $size - size in pixels (include px)
+@mixin fontSize($size) {
+  font-size: $size; //Fallback in px
+  font-size: rem($size);
+}
+
+@mixin hideScrollbars() {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@mixin aspect-ratio($width, $height) {
+
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+
+  >.ar-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
