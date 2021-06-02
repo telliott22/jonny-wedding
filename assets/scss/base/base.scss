@@ -27,6 +27,8 @@ body {
   -webkit-font-feature-settings: "calt" 0;
   font-feature-settings: "calt" 0;
 
+  color: $white;
+
   &.noscroll {
     overflow: hidden;
   }
