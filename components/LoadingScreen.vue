@@ -44,7 +44,7 @@ export default {
 
     timeline
       .from(image, { opacity: 0, delay: 1.5 })
-      .to(overlay, { opacity: 0, delay: 1.5 })
+      .to(overlay, { opacity: 0, delay: 2 })
       .from(
         cornerImageLeft,
         { opacity: 0, x: -10, y: -10, delay: 0.2 },
