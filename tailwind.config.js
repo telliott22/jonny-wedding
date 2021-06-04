@@ -17,6 +17,12 @@ module.exports = {
         default: "#afc2b3",
       },
     },
+    scale: {
+      "-1": "-1",
+    },
+    rotate: {
+      "-30": "-30deg",
+    },
     fontFamily: {
       sans: ["Courgette", "sans-serif"],
     },
@@ -93,6 +99,8 @@ module.exports = {
     backgroundImage: (theme) => ({
       border: "url('/border.png')",
       flowers: "url('/flowers.png')",
+      "flowers-tile": "url('/flowers-tile.jpg')",
+      "flowers-corner": "url('/flowers-corner.jpg')",
     }),
   },
   variants: {

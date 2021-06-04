@@ -17,6 +17,9 @@ html {
 
 body {
   // add a quick fade in on body to fix flash of prerendered content
+  opacity: 0;
+  animation: 3s 0.5s 1 both fadeIn;
+
   overflow-x: hidden;
   background-color: $light-green;
   touch-action: manipulation;

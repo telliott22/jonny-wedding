@@ -1,5 +1,8 @@
 <template>
-  <div class="container mx-lg flex flex-col p-18 justify-center text-white max">
+  <div
+    id="main"
+    class="container mx-lg flex flex-col p-18 justify-center text-white max"
+  >
     <img
       src="/header-image.png"
       alt="Saturday 4th September"
@@ -47,9 +50,14 @@
         <h2 class="text-lg">Gifts</h2>
         <p>
           Whilst your presence is the best present we can ask for, if you wish
-          to give us a figt we would be gratfeul for any contribution to our
+          to give us a gift we would be gratfeul for any contribution to our
           honeymoon. To contribute online, click
-          <a class="underline" href="#">here</a>
+          <a
+            class="underline cursor-pointer"
+            target="_blank"
+            href="https://pay.collctiv.com/wedding-24704"
+            >here</a
+          >
         </p>
       </div>
 
@@ -63,7 +71,7 @@
       <h2 class="text-lg">Location</h2>
 
       <a
-        class="mb-8 underline"
+        class="mb-8 underline cursor-pointer"
         href="https://goo.gl/maps/gThMpzn3ij4nrZneA"
         target="_blank"
         >St Peter's Langleybury, Langleybury Lane, Hunton Bridge, WD4 8QQ
