@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "Tanqueray ",
+    title: "Jonny and Tara Lane's wedding",
     htmlAttrs: {
       lang: "en",
     },
@@ -12,12 +12,12 @@ export default {
       {
         hid: "apple-mobile-web-app-title",
         name: "apple-mobile-web-app-title",
-        content: "Tanqueray",
+        content: "Jonny and Tara Lane's wedding",
       },
       {
         hid: "application-name",
         name: "application-name",
-        content: "Tanqueray",
+        content: "Jonny and Tara Lane's wedding",
       },
       {
         hid: "msapplication-TileColor",
