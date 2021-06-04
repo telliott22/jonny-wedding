@@ -10,7 +10,7 @@
     />
 
     <div class="max-w-2xl text-center m-auto">
-      <h1 class="text-xl text-white">Jonny and Tara's wedding</h1>
+      <h1 class="text-xl text-white">Jonny and Tara Lane's wedding</h1>
 
       <div class="mb-10">
         <h2 class="text-lg">Ceremony</h2>
