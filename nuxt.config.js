@@ -31,6 +31,7 @@ export default {
       },
       { hid: "theme-color", name: "theme-color", content: "#2c4e1e" },
     ],
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.png" }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
