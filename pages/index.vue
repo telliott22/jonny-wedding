@@ -107,10 +107,26 @@
 
       <div class="mb-10">
         <h2 class="text-lg">RSVP</h2>
+
         <p>
-          Please
-          <a class="underline" href="https://forms.gle/z9yZ7PpPTRPgFkGG7"
-            >RSVP</a
+          Please let us know if you can come to the wedding by July 1st 2021.
+        </p>
+        <p>
+          To RSVP for the wedding, click
+          <a
+            class="underline"
+            target="_blank"
+            href="https://forms.gle/VpGS5rLuJGMuhcGu5"
+            >here</a
+          >
+        </p>
+        <p>
+          To RSVP for the evening event, click
+          <a
+            class="underline"
+            target="_blank"
+            href="https://forms.gle/RkP3TSW3f2XHF4ENA"
+            >here</a
           >
         </p>
       </div>
