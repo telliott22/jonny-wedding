@@ -6,10 +6,10 @@
     <img
       src="/header-image.png"
       alt="Saturday 4th September"
-      class="m-auto w-1/2 max-w-md mb-10"
+      class="m-auto md:w-1/2 max-w-full md:max-w-md mb-10"
     />
 
-    <div class="max-w-2xl text-center m-auto">
+    <div class="max-w-full md:max-w-2xl text-center m-auto">
       <h1 class="text-xl text-white">Jonny and Tara Lane's wedding</h1>
 
       <div class="mb-10">
@@ -24,26 +24,6 @@
           available. A bus will be provided to transport you from church to
           venue.
         </p>
-      </div>
-
-      <h2 class="text-lg mb-2">Accomodation</h2>
-
-      <div class="mb-6">
-        <h3 class="text-base">Near The Church</h3>
-        <ul>
-          <li>Premier Inn - Kings Langley</li>
-          <li>Holiday Inn - Watford Junction</li>
-          <li>Jurys Inn - Watford</li>
-        </ul>
-      </div>
-
-      <div class="mb-10">
-        <h3 class="text-base">Near The Reception Venue</h3>
-        <ul>
-          <li>Premier Inn - Hitchin Town Centre</li>
-          <li>Hilton Garden Inn</li>
-          <li>La Bella Vita</li>
-        </ul>
       </div>
 
       <div class="mb-10">
@@ -66,6 +46,75 @@
         <p>Jacket & Tie/Cocktail Attire</p>
       </div>
 
+      <h2 class="text-lg mb-2">Accomodation</h2>
+
+      <div class="mb-6">
+        <h3 class="text-base">Near The Church</h3>
+        <ul>
+          <li>Premier Inn - Kings Langley</li>
+          <li>Holiday Inn - Watford Junction</li>
+          <li>Jurys Inn - Watford</li>
+        </ul>
+      </div>
+
+      <div class="mb-10">
+        <h3 class="text-base">Near The Reception Venue</h3>
+        <ul>
+          <li>Premier Inn - Hitchin Town Centre</li>
+          <li>Hilton Garden Inn</li>
+          <li>La Bella Vita</li>
+        </ul>
+      </div>
+
+      <hr class="m-10" />
+
+      <div class="mb-10">
+        <h2 class="text-lg mb-2">Menu choices:</h2>
+
+        <div class="mb-10">
+          <p>
+            Starter <br />
+            ***
+          </p>
+
+          <p>Option 1: Roasted Butternut & Sage Soup</p>
+          <p>or</p>
+          <p>Option 2: Plum Tomato and Mozzarella with Ciabatta</p>
+        </div>
+
+        <div class="my-10">
+          <p>
+            Main <br />
+            ***
+          </p>
+
+          <p>Option 1: Black Truffle Mac and Cheese</p>
+          <p>or</p>
+          <p>Option 2: Beef Roast</p>
+        </div>
+
+        <div class="my-10">
+          <p>
+            Dessert <br />
+            ***
+          </p>
+
+          <p>Option 1: Honeycomb Cheesecake</p>
+          <p>or</p>
+          <p>Option 2: Strawberry Torte</p>
+        </div>
+      </div>
+
+      <div class="mb-10">
+        <h2 class="text-lg">RSVP</h2>
+        <p>
+          Please
+          <a class="underline" href="https://forms.gle/z9yZ7PpPTRPgFkGG7"
+            >RSVP</a
+          >
+        </p>
+      </div>
+
       <hr class="m-10" />
 
       <h2 class="text-lg">Location</h2>
@@ -86,13 +135,6 @@
           allowfullscreen=""
           loading="lazy"
         ></iframe>
-      </div>
-
-      <hr class="m-10" />
-
-      <div class="mb-10">
-        <h2 class="text-lg">Ceremony</h2>
-        <p>Ceremony starts at 1pm, please be seated no later than 12.30pm</p>
       </div>
     </div>
   </div>

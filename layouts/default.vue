@@ -13,9 +13,11 @@
         fixed
         left-0
         top-0
-        w-32
+        w-24
+        h-24
+        md:w-32
+        md:h-32
         bg-flowers-corner bg-no-repeat bg-contain
-        h-32
       "
     ></div>
     <div
@@ -25,9 +27,11 @@
         fixed
         right-0
         top-0
-        w-32
+        w-24
+        h-24
+        md:w-32
+        md:h-32
         bg-flowers-corner bg-no-repeat bg-contain
-        h-32
         flip-image
       "
     ></div>

@@ -100,7 +100,7 @@ module.exports = {
       border: "url('/border.png')",
       flowers: "url('/flowers.png')",
       "flowers-tile": "url('/flowers-tile.jpg')",
-      "flowers-corner": "url('/flowers-corner.jpg')",
+      "flowers-corner": "url('/flowers-corner.png')",
     }),
   },
   variants: {
