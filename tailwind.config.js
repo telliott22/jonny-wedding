@@ -22,6 +22,11 @@ module.exports = {
     },
     rotate: {
       "-30": "-30deg",
+      "-15": "-15deg",
+      "-5": "-5deg",
+      5: "5deg",
+      15: "15deg",
+      30: "30deg",
     },
     fontFamily: {
       sans: ["Courgette", "sans-serif"],
@@ -78,6 +83,7 @@ module.exports = {
         60: "15rem",
       },
       inset: {
+        22: "2.5rem",
         "1/2": "50%",
         full: "100%",
       },

@@ -4,21 +4,21 @@
     class="
       h-screen
       w-screen
-      bg-flowers-tile
+      bg-flowers-tile bg-green
       fixed
       top-0
       left-0
-      z-10
+      z-20
       flex
       justify-center
       items-center
     "
   >
-    <img
+    <LazyLoadImage
       id="image"
-      class="h-64 -rotate-30 transform"
-      src="/faces.jpg"
       alt="Jonny and Tara"
+      class="h-64 -rotate-30 transform"
+      :desktop-image="'/faces.jpg'"
     />
   </div>
 </template>

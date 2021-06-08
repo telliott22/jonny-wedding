@@ -1,20 +1,32 @@
 <template>
   <div
     id="main"
-    class="container mx-lg flex flex-col p-18 justify-center text-white max"
+    class="
+      container
+      mx-lg
+      flex flex-col
+      p-6
+      md:p-18
+      justify-center
+      text-white
+      max
+    "
   >
     <img
       src="/header-image.png"
       alt="Saturday 4th September"
-      class="m-auto md:w-1/2 max-w-full md:max-w-md mb-10"
+      class="m-auto md:w-1/2 max-w-full md:max-w-md md:mb-10"
     />
 
     <div class="max-w-full md:max-w-2xl text-center m-auto">
-      <h1 class="text-xl text-white">Jonny and Tara Lane's wedding</h1>
+      <h1 class="text-xxl text-white mb-10">Jonny and Tara Lane's wedding</h1>
 
       <div class="mb-10">
         <h2 class="text-lg">Ceremony</h2>
-        <p>Ceremony starts at 1pm, please be seated no later than 12.30pm</p>
+        <p>
+          Ceremony starts at 1pm on the 4th September 2021. Please be seated no
+          later than 12.30pm
+        </p>
       </div>
 
       <div class="mb-10">
@@ -66,7 +78,37 @@
         </ul>
       </div>
 
-      <hr class="m-10" />
+      <!-- <hr class="m-10" /> -->
+
+      <div class="mt-16 md:mt-24 flex flex-row">
+        <LazyLoadImage
+          id="image"
+          alt="Jonny and Tara"
+          class="h-56 md:h-64 relative -rotate-15 transform md:left-22"
+          :desktop-image="'/faces-2.jpg'"
+        />
+        <LazyLoadImage
+          id="image"
+          alt="Jonny and Tara"
+          class="h-56 md:h-64 relative rotate-5 transform md:right-22"
+          :desktop-image="'/faces-3.jpg'"
+        />
+      </div>
+
+      <div class="mb-16 md:mb-24 md:mt-6 flex flex-row">
+        <LazyLoadImage
+          id="image"
+          alt="Jonny and Tara"
+          class="h-56 md:h-64 relative md:left-22 rotate-5 transform"
+          :desktop-image="'/faces-4.jpg'"
+        />
+        <LazyLoadImage
+          id="image"
+          alt="Jonny and Tara"
+          class="h-56 md:h-64 relative -rotate-5 transform md:right-22"
+          :desktop-image="'/faces-5.jpg'"
+        />
+      </div>
 
       <div class="mb-10">
         <h2 class="text-lg mb-2">Menu choices:</h2>
