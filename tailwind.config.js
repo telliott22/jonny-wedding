@@ -58,6 +58,7 @@ module.exports = {
         vtight: "0.9",
       },
       borderWidth: {
+        3: "3px",
         12: "12px",
         20: "20px",
       },

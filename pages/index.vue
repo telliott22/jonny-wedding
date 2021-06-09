@@ -21,6 +21,34 @@
     <div class="max-w-full md:max-w-2xl text-center m-auto">
       <h1 class="text-xxl text-white mb-10">Jonny and Tara Lane's wedding</h1>
 
+      <div>
+        <p>
+          Please let us know if you can come to the wedding by July 1st 2021.
+        </p>
+
+        <p>
+          Ceremony guests, please RSVP
+          <a
+            class="underline"
+            target="_blank"
+            href="https://forms.gle/VpGS5rLuJGMuhcGu5"
+            >here</a
+          >
+        </p>
+
+        <p>
+          Evening only guests, please RSVP
+          <a
+            class="underline"
+            target="_blank"
+            href="https://forms.gle/RkP3TSW3f2XHF4ENA"
+            >here</a
+          >
+        </p>
+      </div>
+
+      <div class="w-1/3 h-0 border-white border-b-3 m-auto my-10" />
+
       <div class="mb-10">
         <h2 class="text-lg">Ceremony</h2>
         <p>
@@ -153,8 +181,9 @@
         <p>
           Please let us know if you can come to the wedding by July 1st 2021.
         </p>
+
         <p>
-          To RSVP for the wedding, click
+          Ceremony guests, please RSVP
           <a
             class="underline"
             target="_blank"
@@ -184,10 +213,10 @@
         ></iframe>
       </div>
 
-      <hr class="m-10" />
+      <div class="w-1/3 h-0 border-white border-b-3 m-auto my-10" />
 
-      <div class="mb-10">
-        <h2 class="text-lg">Wedding Reception</h2>
+      <div id="evening-event" class="mb-10">
+        <h2 class="text-lg">Evening event</h2>
         <p>Wedding reception starts at 7.30pm.</p>
       </div>
 
@@ -199,7 +228,7 @@
           1st 2021.
         </p>
         <p>
-          To RSVP for the evening event, click
+          To RSVP for the wedding reception, click
           <a
             class="underline"
             target="_blank"
