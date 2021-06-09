@@ -162,15 +162,6 @@
             >here</a
           >
         </p>
-        <p>
-          To RSVP for the evening event, click
-          <a
-            class="underline"
-            target="_blank"
-            href="https://forms.gle/RkP3TSW3f2XHF4ENA"
-            >here</a
-          >
-        </p>
       </div>
 
       <h2 class="text-lg">Wedding Location</h2>
