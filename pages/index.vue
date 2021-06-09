@@ -179,7 +179,7 @@
         class="mb-8 underline cursor-pointer"
         href="https://goo.gl/maps/gThMpzn3ij4nrZneA"
         target="_blank"
-        >St Peter's Langleybury, Langleybury Lane, Hunton Bridge, WD4 8QQ
+        >St Paul's Langleybury, Langleybury Lane, Hunton Bridge, WD4 8QQ
       </a>
 
       <div class="flex justify-center mb-10">
