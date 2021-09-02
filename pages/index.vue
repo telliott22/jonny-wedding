@@ -108,32 +108,32 @@
 
       <!-- <hr class="m-10" /> -->
 
-      <div class="mt-16 md:mt-24 flex flex-row">
+      <div class="mt-16 md:mt-24 flex flex-row justify-center">
         <LazyLoadImage
           id="image"
           alt="Jonny and Tara"
-          class="h-56 md:h-64 relative -rotate-15 transform md:left-22"
+          class="h-56 md:h-64 relative -rotate-15 transform"
           :desktop-image="'/faces-2.jpg'"
         />
         <LazyLoadImage
           id="image"
           alt="Jonny and Tara"
-          class="h-56 md:h-64 relative rotate-5 transform md:right-22"
+          class="h-56 md:h-64 relative rotate-5 transform"
           :desktop-image="'/faces-3.jpg'"
         />
       </div>
 
-      <div class="mb-16 md:mb-24 md:mt-6 flex flex-row">
+      <div class="mb-16 md:mb-24 md:mt-6 flex flex-row justify-center">
         <LazyLoadImage
           id="image"
           alt="Jonny and Tara"
-          class="h-56 md:h-64 relative md:left-22 rotate-5 transform"
+          class="h-56 md:h-64 relative rotate-5 transform"
           :desktop-image="'/faces-4.jpg'"
         />
         <LazyLoadImage
           id="image"
           alt="Jonny and Tara"
-          class="h-56 md:h-64 relative -rotate-5 transform md:right-22"
+          class="h-56 md:h-64 relative -rotate-5 transform"
           :desktop-image="'/faces-5.jpg'"
         />
       </div>
